@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="header">
+    </header>
+
+    <main>
+        <p>A list of dog breeds by group. Give it a try!</p>
+        <select name="dogBreed" id="dogBreed-select">
+            <option value="">All Breeds</option>
+            <option value="companion">Companion</option>
+            <option value="foundation stock service">Foundation Stock Service</option>
+            <option value="herding">Herding</option>
+            <option value="hound">Hound</option>
+            <option value="mixed">Mixed</option>
+            <option value="non-sporting">Non-Sporting</option>
+            <option value="sporting">Sporting</option>
+            <option value="terrier">Terrier</option>
+            <option value="toy">Toy</option>
+            <option value="working">Working</option>
+        </select>
+        <button onclick="listDogBreed()">
+            Submit
+        </button>
+    </main>
+
+    <div class="container">
+        <ul id="dogBreedList"></ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
