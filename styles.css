@@ -74,7 +74,7 @@ button {
     color: white;
     font-weight: 600;
     border-radius: 10px;
-    margin: 10px;
+    margin-left: 5px;
     box-shadow: 0 5px rgb(154, 77, 41);
 }
 
@@ -119,7 +119,7 @@ img {
 }
 
 li::marker {
-    color: #B7672A;
+    color: #ef924a;
 }
 
 #dogBreedList {

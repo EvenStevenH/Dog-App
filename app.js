@@ -11,6 +11,14 @@ window.addEventListener('load', function () {
         </nav>`
 })
 
+var input = document.getElementById("dogBreedInput");
+input.addEventListener("keypress", function (event) {
+    if (event.key === "Enter") {
+        event.preventDefault();
+        getDogPurpose();
+    }
+})
+
 function getDogImage() {
     fetch("https://api.thedogapi.com/v1/images/search?limit=1")
         .then(response => {
