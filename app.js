@@ -82,7 +82,7 @@ function getDogPurpose() {
                     matchingBreeds.forEach(breed => {
                         const li = document.createElement('li');
                         if (!breed.bred_for || breed.bred_for.trim() === '') {
-                            li.textContent = `${breed.name}: purpose unknown. Let dogs be dogs!`;
+                            li.textContent = `${breed.name}: purpose unknown`;
                         } else {
                             li.textContent = `${breed.name}: ${breed.bred_for.toLowerCase()}`;
                         }
