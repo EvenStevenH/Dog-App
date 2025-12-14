@@ -59,7 +59,7 @@ function listDogBreed() {
 function getDogPurpose() {
     const dogBreedInput = document.getElementById("dogBreedInput").value.toLowerCase();
 
-    if (dogBreedInput === "") {
+    if (dogBreedInput !== "") {
 
         fetch(`https://api.thedogapi.com/v1/breeds`)
             .then(response => {
@@ -94,5 +94,8 @@ function getDogPurpose() {
                 console.error("Error:", error.message);
                 document.getElementById("dogBreedPurpose").textContent = 'Invalid breed, or breed does not have a known purpose.';
             });
+    }
+    else {
+        document.getElementById("dogBreedPurpose").textContent = ''
     }
 }
