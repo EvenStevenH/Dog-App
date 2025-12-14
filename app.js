@@ -2,7 +2,7 @@ const header = document.querySelector("#header")
 
 window.addEventListener('load', function () {
     header.innerHTML = `
-        <h1>Dog API</h1>
+        <h1>Dog API 🐶</h1>
         <nav>
             <li><a href="index.html">Images</a></li>
             <li><a href="dogBreed.html">Breeds</a></li>

@@ -5,5 +5,4 @@
 
 ## Instructions
 
-* Use the [GitHub page](https://evenstevenh.github.io/Dog-App/) to check it out!
-* No installations or API keys needed.
+* No installations or API keys needed. Use this [GitHub page](https://evenstevenh.github.io/Dog-App/) to check it out!
